@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">DSC Quiz</string>
+
+    <string name="name">DSC Quiz</string>
+    <string name="start">Start</string>
+    <string name="welcome_name">Welcome, %1$s</string>
+    <string name="your_name_tv">Enter your name</string>
+    <string name="appdes">This Quiz App\n is all about to check your \n DSC knowlodge.\n\n+5 for correct answer</string>
+
+    <string name="toast_alert">Please attempt all ques.</string>
+
+    <string name="question1">1. Where DSC Program is currently running? (3 answers)</string>
+    <string name="option1_a">India</string>
+    <string name="option1_b">US</string>
+    <string name="option1_c">Africa</string>
+    <string name="option1_d">Indonesia</string>
+
+    <string name="question2">2. When did "DSC" founded?</string>
+    <string name="option2_a">2012</string>
+    <string name="option2_b">2014</string>
+    <string name="option2_c">2015</string>
+    <string name="option2_d">2017</string>
+
+    <string name="question3">3. How many DSC Leads are there from India?</string>
+    <string name="option3_a">66</string>
+    <string name="option3_b">89</string>
+    <string name="option3_c">150</string>
+    <string name="option3_d">176</string>
+
+    <string name="question4">4. Who is the program manager of DSC in India?</string>
+    <string name="option4_a">Divya Nair</string>
+    <string name="option4_b">Deepak Sridhar</string>
+    <string name="option4_c">Lalit</string>
+    <string name="option4_d">Vandna Jaiswal</string>
+
+    <string name="question5">5. Anyone can join DSC?</string>
+    <string name="option5_a">Yes</string>
+    <string name="option5_b">No</string>
+
+    <string name="question6">6. Which place DSC Summit happen?</string>
+
+    <string name="answer_here">Answer Here</string>
+    <string name="submit">Submit</string>
+
+    <string name="score">Score = %1$s</string>
+
+    <string name="answers">1. India, Africa, Indonesia
+                            \n2. 2017
+                            \n3. 176
+                            \n4. Divya Nair
+                            \n5. Yes
+                            \n6. Goa</string>
+</resources>

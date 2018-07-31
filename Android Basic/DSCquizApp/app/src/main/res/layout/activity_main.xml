@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/activity_main"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:orientation="vertical"
+  tools:context=".MainActivity">
+
+  <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+      style="@style/HeadingCustomText"
+      android:text="@string/name"
+      android:textColor="@android:color/white"
+      android:background="@android:color/holo_green_light"/>
+    <TextView
+      android:id="@+id/welcome_name"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:padding="@dimen/padding"
+      android:gravity="center"
+      android:textSize="@dimen/welcome_name"
+      android:fontFamily="casual"
+      android:textColor="@android:color/holo_blue_dark"
+      android:textAllCaps="true"
+      android:visibility="gone"/>
+    <EditText
+      android:id="@+id/et_name"
+      style="@style/CustomEditText"
+      android:hint="@string/your_name_tv"/>
+    <Button
+      android:id="@+id/btn_start"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      style="@style/CustomButton"
+      android:text="@string/start"/>
+    <TextView
+      android:id="@+id/tv_detail"
+      android:text="@string/appdes"
+      style="@style/CustomDetail" />
+
+    <LinearLayout
+      android:id="@+id/show_game"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:visibility="gone">
+      <LinearLayout
+        style="@style/CustomQuesLayout">
+        <TextView
+          android:id="@+id/ques1"
+          style="@style/CustomQues"
+          android:text="@string/question1" />
+        <RelativeLayout
+          style="@style/CustomRelative">
+          <CheckBox
+            android:id="@+id/option1_a"
+            style="@style/CustomRadioButtons"
+            android:text="@string/option1_a"
+            android:layout_alignParentStart="true"/>
+          <CheckBox
+            android:id="@+id/option1_c"
+            style="@style/CustomRadioButtons"
+            android:text="@string/option1_b"
+            android:layout_alignParentEnd="true"/>
+          <CheckBox
+            android:id="@+id/option1_b"
+            style="@style/CustomRadioButtons"
+            android:text="@string/option1_c"
+            android:layout_below="@id/option1_a"/>
+          <CheckBox
+            android:id="@+id/option1_d"
+            style="@style/CustomRadioButtons"
+            android:text="@string/option1_d"
+            android:layout_below="@id/option1_c"
+            android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+      </LinearLayout>
+
+      <LinearLayout
+        style="@style/CustomQuesLayout">
+        <TextView
+          android:id="@+id/ques2"
+          android:text="@string/question2"
+          style="@style/CustomQues"/>
+        <RelativeLayout
+          style="@style/CustomRelative">
+          <RadioGroup
+            android:id="@+id/rg_ques2"
+            style="@style/CustomRadioGroup">
+            <RadioButton
+              android:id="@+id/option2_a"
+              style="@style/CustomRadioButtons"
+              android:text="@string/option2_a" />
+            <RadioButton
+              android:id="@+id/option2_b"
+              style="@style/CustomRadioButtons"
+              android:text="@string/option2_b" />
+            <RadioButton
+              android:id="@+id/option2_c"
+              style="@style/CustomRadioButtons"
+              android:text="@string/option2_c" />
+            <RadioButton
+              android:id="@+id/option2_d"
+              style="@style/CustomRadioButtons"
+              android:text="@string/option2_d" />
+          </RadioGroup>
+        </RelativeLayout>
+      </LinearLayout>
+
+      <LinearLayout
+        style="@style/CustomQuesLayout">
+        <TextView
+          android:id="@+id/ques3"
+          android:text="@string/question3"
+          style="@style/CustomQues"/>
+        <RelativeLayout
+          style="@style/CustomRelative">
+          <RadioGroup
+            android:id="@+id/rg_ques3"
+            style="@style/CustomRadioGroup">
+            <RadioButton
+              android:id="@+id/option3_a"
+              style="@style/CustomRadioButtons"
+              android:text="@string/option3_a" />
+            <RadioButton
+              android:id="@+id/option3_b"
+              style="@style/CustomRadioButtons"
+              android:text="@string/option3_b" />
+            <RadioButton
+              android:id="@+id/option3_c"
+              style="@style/CustomRadioButtons"
+              android:text="@string/option3_c" />
+            <RadioButton
+              android:id="@+id/option3_d"
+              style="@style/CustomRadioButtons"
+              android:text="@string/option3_d" />
+          </RadioGroup>
+        </RelativeLayout>
+      </LinearLayout>
+
+      <LinearLayout
+        style="@style/CustomQuesLayout">
+        <TextView
+          android:id="@+id/ques4"
+          android:text="@string/question4"
+          style="@style/CustomQues"/>
+        <RelativeLayout
+          style="@style/CustomRelative">
+          <RadioGroup
+            android:id="@+id/rg_ques4"
+            style="@style/CustomRadioGroup">
+            <RadioButton
+              android:id="@+id/option4_a"
+              style="@style/CustomRadioButtons"
+              android:text="@string/option4_a" />
+            <RadioButton
+              android:id="@+id/option4_b"
+              style="@style/CustomRadioButtons"
+              android:text="@string/option4_b" />
+            <RadioButton
+              android:id="@+id/option4_c"
+              style="@style/CustomRadioButtons"
+              android:text="@string/option4_c" />
+            <RadioButton
+              android:id="@+id/option4_d"
+              style="@style/CustomRadioButtons"
+              android:text="@string/option4_d" />
+          </RadioGroup>
+        </RelativeLayout>
+      </LinearLayout>
+
+      <LinearLayout
+        style="@style/CustomQuesLayout">
+        <TextView
+          android:id="@+id/ques5"
+          android:text="@string/question5"
+          style="@style/CustomQues"/>
+        <RelativeLayout
+          style="@style/CustomRelative">
+          <RadioGroup
+            android:id="@+id/rg_ques5"
+            style="@style/CustomRadioGroup">
+            <RadioButton
+              android:id="@+id/option5_a"
+              style="@style/CustomRadioButtons"
+              android:text="@string/option5_a" />
+            <RadioButton
+              android:id="@+id/option5_c"
+              style="@style/CustomRadioButtons"
+              android:text="@string/option5_b"/>
+          </RadioGroup>
+        </RelativeLayout>
+      </LinearLayout>
+
+      <LinearLayout
+        style="@style/CustomQuesLayout">
+        <TextView
+          android:id="@+id/ques6"
+          android:text="@string/question6"
+          style="@style/CustomQues"/>
+        <EditText
+          android:id="@+id/answer6"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          style="@style/CustomEditText"
+          android:layout_marginTop="@dimen/padding"
+          android:layout_marginStart="@dimen/activity_horizontal_margin"
+          android:hint="@string/answer_here" />
+      </LinearLayout>
+
+      <TextView
+        android:id="@+id/result"
+        style="@style/CustomText"
+        android:visibility="gone"/>
+      <Button
+        android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit"
+        style="@style/CustomButton"/>
+    </LinearLayout>
+  </LinearLayout>
+</ScrollView>

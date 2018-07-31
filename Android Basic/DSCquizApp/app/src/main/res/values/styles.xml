@@ -1,0 +1,94 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="HeadingCustomText">
+        <item name="android:padding">@dimen/activity_horizontal_margin</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="CustomText">
+        <item name="android:padding">@dimen/activity_horizontal_margin</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="CustomEditText">
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@color/colorAcc</item>
+        <item name="android:layout_marginTop">@dimen/padding</item>
+        <item name="android:padding">@dimen/activity_horizontal_margin</item>
+        <item name="android:focusableInTouchMode">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="CustomButton">
+        <item name="android:padding">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@android:color/holo_red_light</item>
+        <item name="android:layout_marginTop">@dimen/top_margin</item>
+    </style>
+
+    <style name="CustomDetail">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/top_margin</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">@dimen/activity_horizontal_margin</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:background">@android:color/darker_gray</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="CustomQues">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/activity_horizontal_margin</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="CustomQuesLayout">
+        <item name="android:background">@android:color/white</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:padding">@dimen/padding</item>
+        <item name="android:layout_marginTop">@dimen/margin_between_ques</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="CustomRelative">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/margin_between_ques_opt</item>
+    </style>
+
+    <style name="CustomRadioButtons">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+
+    <style name="CustomRadioGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

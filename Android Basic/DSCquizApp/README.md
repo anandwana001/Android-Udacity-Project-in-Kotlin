@@ -1,7 +1,7 @@
 # DSC Quiz App
 
 This is the second project from Android Basic Developer Nanodegree in Kotlin. 
-Develop quiz app where user can interact with UI controls.
+Develop quiz app where user can interact with User Input.
 
 I had tried here making list of 10 questions which includes `Checkboxes`, `RadioButtons`, `EditText` and a final `Button` to submit the answers and show the result on `TextView`.
 
